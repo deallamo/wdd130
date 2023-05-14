@@ -2,9 +2,9 @@
 
 body {
     max-width: 1600px;
+}
+#content {
     margin: 0 auto;
-    display: block;
-
 }
 nav a {
     text-align: center;
@@ -22,13 +22,13 @@ main section {
 }
 #background {
     height: 725px;
-    background-color: aliceblue;
-}
-body {
     background-color: #AEF3E7;
 }
+body {
+    background-color: aliceblue;
+}
 header {
-    background-color: rgba(20,30,13, .7);
+    background-color: #03045e;
 }
 h4 {
     color: #03045e;

@@ -96,6 +96,7 @@ nav a:hover {
 .msg p {
     background-color: #AEF3E7;
     color: #03045e;
+    font-family: Lato, Calibri, sans-serif;;
     font-size: .8em;
     padding-bottom: 15px;
 }

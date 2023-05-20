@@ -14,7 +14,7 @@ Fonts are separated by a & */
 
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Abril Fatface";
+  --heading-font: "Abril Fatface", cursive;
   --paragraph-font: Lato, Calibri, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */

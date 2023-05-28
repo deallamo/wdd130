@@ -8,6 +8,7 @@ body {
 }
 #content {
     margin: 0 auto;
+    max-width: 1600px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;

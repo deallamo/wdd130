@@ -10,6 +10,17 @@ nav {
     display: flex;
     justify-content: space-around;
 }
+nav a {
+    text-align: center;
+    background-color: #03045e;
+    color: #AEF3E7;
+    padding: 35px;
+}
+nav a:hover {
+    background-color: #C33C54;
+    color: white;
+    text-decoration: none;
+}
 .logo {
     width: 80px;
 }
@@ -87,17 +98,7 @@ h4 {
     border: 10px solid #000;
 }
 
-nav a {
-    text-align: center;
-    background-color: #03045e;
-    color: #AEF3E7;
-    padding: 35px;
-}
-nav a:hover {
-    background-color: #C33C54;
-    color: white;
-    text-decoration: none;
-}
+
 .book, .join {
     background-color: #03045e;
     color: white;

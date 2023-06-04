@@ -20,6 +20,27 @@ nav {
 }
 /* header properties*/
 
+/* div id: hero img properties*/
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+}
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+#hero-msg h4 {
+    text-align: center;
+    color: white;
+}
+#hero-img {
+    width: 100%;
+}
+/* div id: hero img properties*/
+
 body {
     background-color: aliceblue;
     margin: 0;
@@ -29,9 +50,7 @@ body {
     margin: 0 auto;
     max-width: 1600px;
 }
-#hero-msg h1, #hero-msg h4 {
-    text-align: center;
-}
+
 .button-box {
     text-align: center;
 }
@@ -63,9 +82,7 @@ h4 {
 .card-img {
     border: 10px solid #000;
 }
-#hero-img {
-    width: 100%;
-}
+
 nav a {
     text-align: center;
     background-color: #03045e;

@@ -1,5 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato&display=swap');
 
+/* header properties*/
+header {
+    background-color: #03045e;
+    display: grid;
+    grid-template-columns: 150 px auto;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+.logo {
+    width: 80px;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+/* header properties*/
+
 body {
     background-color: aliceblue;
     margin: 0;
@@ -25,21 +45,14 @@ main section {
     height: 725px;
     background-color: #028090;
 }
-header {
-    background-color: #03045e;
-}
+
 h2 {
     margin: 0;
 }
 h4 {
     color: #03045e;
 }
-.logo {
-    width: 80px;
-}
-#logo_link {
-    padding-top: 5px;
-}
+
 .icon {
     width: 80px;
     padding-top: 10px;

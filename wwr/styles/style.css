@@ -88,6 +88,13 @@ h4 {
 }
 .card-img {
     border: 10px solid #000;
+    border: 10px solid #d9c2a3;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
 }
 .card-img, .mountains {
     width: 100%;
@@ -95,6 +102,7 @@ h4 {
 .mountains {
     grid-column: 2/7;
     grid-row: 5/8;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 .rivers-card {
     margin: 200px 0;
@@ -123,6 +131,7 @@ h4 {
     line-height: 1.5em;
     grid-column: 6/10;
     grid-row: 6/7;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 .icon {
     width: 80px;

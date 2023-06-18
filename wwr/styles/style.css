@@ -246,3 +246,54 @@ footer .social img {
         margin-top: 25px;
     }
 }
+
+/* subpage properties*/
+#rates-title h1 {
+    text-align: center;
+    color: #03045e;
+    font-family: "Abril Fatface", cursive;
+    font-size: 3.5em;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.rates-grid {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    gap: 10px;
+  }
+  
+.salmon-river-card,
+.desolation-river-card,
+.grandcanyon-river-card {
+  grid-column: span 8;
+  text-align: center;
+}
+
+.salmon-river-card img,
+.desolation-river-card img,
+.grandcanyon-river-card img {
+  display: block;
+  margin: 0 auto;
+}
+
+.salmon-river-card img {
+  grid-column: 2/6;
+  grid-row: 2/5;
+}
+
+.desolation-river-card img {
+    grid-column: 7/11;
+    grid-row: 2/5;
+}
+
+.grandcanyon-river-card img {
+    grid-column: 12/16;
+    grid-row: 2/5;
+}
+
+.salmon-river-card h2,
+.desolation-river-card h2,
+.grandcanyon-river-card h2 {
+  margin-top: 10px;
+}

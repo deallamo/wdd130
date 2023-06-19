@@ -325,9 +325,9 @@ footer .social img {
     background-color: #028090;
 }
 
-.salmon-info img {
+.bg1-img {
     grid-column: 2/5;
-    grid-row: 2/3;
+    grid-row: 2/4;
 }
 
 .salmon-info {
@@ -351,7 +351,8 @@ footer .social img {
 
 .bg-msg1 {
     background-color: #AEF3E7;
-    grid-column: 2/9;
+    grid-column: 5/10;
+    grid-row: 2/4;
 }
 
 .bg-msg2 {
@@ -361,6 +362,37 @@ footer .social img {
 .bg-msg3 {
     background-color: #AEF3E7;
 }
+
+.bg-msg1 h2, .bg-msg2 h2, .bg-msg3 h2 {
+    color: #03045e;
+    font-size: 2em;
+    text-align: center;
+    font-family: "Abril Fatface", cursive;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+} 
+
+.bg-msg1 h3, .bg-msg2 h3, .bg-msg3 h3 {
+    color: #C33C54;
+    font-size: 1.5em;
+    text-align: center;
+    font-family: "Abril Fatface", cursive;
+    margin: 0 auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+} 
+
+.bg-msg1 p, .bg-msg2 p, .bg-msg3 p {
+    color: #03045e;
+    font-size: 18px;
+    text-align: center;
+    font-family: Lato, Calibri, sans-serif;
+    margin: 0 auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+} 
 
 
 

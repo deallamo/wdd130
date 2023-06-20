@@ -343,16 +343,8 @@ footer .social img {
 }
 
 
-.salmon-info img, .desolation-info img, .canyon-info img {
-    width: 300px;
-    height: 400px;
-    object-fit: cover;
-}
-
 .bg-msg1 {
     background-color: #AEF3E7;
-    grid-column: 5/10;
-    grid-row: 2/4;
 }
 
 .bg-msg2 {

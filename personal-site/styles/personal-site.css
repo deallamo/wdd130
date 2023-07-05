@@ -26,6 +26,11 @@ nav a {
     padding: 35px;
 }
 
+nav a:hover {
+    color: #96C2DB;
+    text-decoration: none;
+}
+
 #intro-profile {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -91,3 +96,66 @@ nav a {
     font-weight: bold;
 }
 
+#about-me {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin: 80px;
+}
+
+#about-me-img {
+    width: 500px;
+}
+
+.about-me-msg {
+    background-color: #E5EDF1;
+}
+
+.about-me-msg h2 {
+    color: #4E6766;
+    font-size: 48px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+.about-me-msg p {
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    font-family: Roboto, sans-serif;
+    margin: 50px;
+}
+
+footer {
+    background-color: #4E6766;
+    color: white;
+    margin-top: 200px;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer h4 {
+    font-size: 32px;
+}
+
+footer p #email {
+    font-size: 1.2em;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #96C2DB;
+}
+footer .social img {
+    width: 50px;
+    gap: 20px;
+    padding-top: 15px;
+}

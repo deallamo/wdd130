@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap');
 
-
+/* header */
 header {
     display: flex;
     align-items: center;
@@ -127,6 +127,40 @@ nav a:hover {
     margin: 50px;
 }
 
+/* page 2 */
+
+#page2-grid {
+    background-color: #E5EDF1;
+    padding: 100px;
+    margin: 80px;
+}
+
+.outstaff-info h2, .resultscx-info h2, .exl-info h2, .arvato-info h2 {
+    color: #4E6766;
+    font-size: 36px;
+    font-family: 'Playfair Display', serif;
+}
+
+.position-info {
+    color: #000;
+    text-align: left;
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+    margin: 50px;
+}
+
+.companies {
+    display: flex;
+    justify-content: center;
+}
+
+.companies-img {
+    justify-content: center;
+    gap: 50px;
+}
+
+
+/* footer */
 footer {
     background-color: #4E6766;
     color: white;
